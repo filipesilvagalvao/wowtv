@@ -1,0 +1,35 @@
+.not404 {
+    min-height: calc(100dvh - 227px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        background-color: var(--bg-color-2);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+
+        h1{
+            color: var(--text-color-1);
+        }
+
+        p{
+            color: var(--text-color-2);
+        }
+
+        a{
+            background-color: var(--main-color);
+            padding: 10px;
+            border-radius: 10px;
+            color: #000;
+            text-transform: uppercase;
+        }
+    }
+}
