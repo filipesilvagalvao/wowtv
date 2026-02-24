@@ -1,0 +1,27 @@
+.category{
+  min-height: calc(100dvh - 118px);
+}
+.category__posts {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 15px;
+  padding: 30px 0;
+  width: 95%;
+  margin: auto;
+
+  @media(max-width:1300px) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  @media(max-width:1000px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media(max-width:700px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media(max-width:500px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
