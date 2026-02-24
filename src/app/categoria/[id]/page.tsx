@@ -7,7 +7,7 @@ import Post_Card from "@/components/post_card/Post_Card"
 // Gerar metadados dinâmicos
 export async function generateMetadata({ params }: { params: { id: string } }) {
     const { id } = await params
-    const data: PostProps[] = (await getChannels()) || []
+    const data = (await getChannels()) || []
     
     const posts = data.filter(({ category }) => {
         return slugify(`${category}`) === id
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
 
 async function page({ params }: { params: { id: string } }) {
     const { id } = await params
-    const data: PostProps[] = (await getChannels()) || []
+    const data = (await getChannels()) || []
 
     const posts = data.filter(({ category }) => {
         return slugify(`${category}`) === id
