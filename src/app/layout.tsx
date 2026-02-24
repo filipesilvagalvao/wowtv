@@ -4,6 +4,7 @@ import Header from "@/components/header/Header";
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import { Poppins } from "next/font/google"
 import Script from "next/script";
+import Footer from "@/components/footer/Footer";
 
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL!
 
@@ -67,6 +68,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
+        <Footer/>
       </body>
     </html>
   );

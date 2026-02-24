@@ -2,12 +2,10 @@ import { PostProps } from "@/ts_types/ts_types"
 import styles from "./Categoria.module.css"
 import getChannels from "@/functions/getChanels"
 import slugify from "@/functions/slugfy"
-
-import { Metadata } from "next"
 import Post_Card from "@/components/post_card/Post_Card"
 
 // Gerar metadados dinâmicos
-export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: { id: string } }) {
     const { id } = await params
     const data: PostProps[] = (await getChannels()) || []
     
