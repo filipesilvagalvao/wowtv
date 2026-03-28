@@ -541,7 +541,7 @@
   {
     "title": "UMA TV",
     "cover": "uma-tv.webp",
-    "m3u8": "https://acesso.ecast.site:3011/live/umatvlive.m3u8",
+    "m3u8": "https://umatv.nuvemplay.live/hls/stream.m3u8",
     "text": "A UMA TV oferece uma programação diversificada, pensada para entreter e informar de maneira leve e envolvente. Misturando histórias emocionantes e ritmos contagiantes, o canal cria uma experiência única para quem busca diversão e conhecimento, com momentos de descontração e reflexão.",
     "category": "Variedades"
   },
