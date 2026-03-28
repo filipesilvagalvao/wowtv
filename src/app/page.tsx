@@ -67,7 +67,7 @@ export default async function Home({ searchParams }: {
         </div>
 
       </section>
-          <Zap/>
+          {/* <Zap/> */}
     </main>
   );
 }
