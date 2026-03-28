@@ -1,5 +1,12 @@
 [
   {
+    "title": "TV Zoom",
+    "cover": "tv-zoom.png",
+    "m3u8": "https://cdn.live.br1.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/chunklist.m3u8",
+    "text": "Diversidade de programas, jornalismo, informação e entretenimento.",
+    "category": "TV Aberta"
+  },
+  {
     "title": "SBT Interior",
     "cover": "sbt-interior-sp.webp",
     "m3u8": "https://live.tvinterior.com.br/hls/stream.m3u8",
