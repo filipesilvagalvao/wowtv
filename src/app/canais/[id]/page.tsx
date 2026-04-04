@@ -3,6 +3,7 @@ import styles from "./Canais.module.css"
 import getChannels from "@/functions/getChanels"
 import slugify from "@/functions/slugfy"
 import Video_Player from "@/components/video_player/Video_Player"
+import Share from "@/components/share/Share"
 
 
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL!
@@ -46,6 +47,7 @@ async function page({ params }: { params: { id: string } }) {
     return (
         <main className={styles.post_page}>
             <div className={styles.post_page__container}>
+                <Share/>
                 <header className={styles.post_page__header}>
                     <h1>{content?.title}</h1>
                     <p>Categoria: {content?.category}</p>
