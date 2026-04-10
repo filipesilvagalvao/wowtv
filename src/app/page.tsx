@@ -1,7 +1,6 @@
 import styles from './page.module.css'
 import getChannels from "@/functions/getChanels";
 import Link from "next/link";
-import '@fortawesome/fontawesome-free/css/all.min.css'
 import Post_Card from '@/components/post_card/Post_Card';
 import Zap from '@/components/zap/Zap';
 

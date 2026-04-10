@@ -5,6 +5,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
 import { Poppins } from "next/font/google"
 import Script from "next/script";
 import Footer from "@/components/footer/Footer";
+import Block from "@/components/block/Block";
 
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL!
 
@@ -64,6 +65,7 @@ export default function RootLayout({
             gtag('config', 'G-Z4MGJXGTGQ');
           `}
         </Script>
+        <Block/>
       </head>
       <body>
         <Header />
