@@ -51,7 +51,10 @@ export default function RootLayout({
     <html lang="pt-br" className={poppins.variable}>
       <head>
         <script src="https://cdn.jsdelivr.net/npm/clappr@0.3.13/dist/clappr.min.js" defer></script>
-        <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
+        <script
+          disable-devtool-auto="true"
+          src="https://cdn.jsdelivr.net/npm/disable-devtool@latest"
+        ></script>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-Z4MGJXGTGQ"
           strategy="afterInteractive"
@@ -66,12 +69,12 @@ export default function RootLayout({
             gtag('config', 'G-Z4MGJXGTGQ');
           `}
         </Script>
-        <Block/>
+        <Block />
       </head>
       <body>
         <Header />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
